@@ -1,0 +1,32 @@
+html, body {
+    background-color: azure;
+    height: 100%;
+}
+
+div {
+    align-content: center;
+    vertical-align: middle;
+    
+}
+
+h1 {
+    font-family: monospace;
+    text-align: center;
+    color: #222;
+    padding: 10pt;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rounded-border {
+    border-style: solid;
+    border-width: 1pt;
+    border-color: #222;
+    border-radius: 10px;
+}
