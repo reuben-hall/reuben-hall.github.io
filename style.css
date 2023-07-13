@@ -6,14 +6,16 @@ html, body {
 div {
     align-content: center;
     vertical-align: middle;
-    
+    width: 100%;
 }
 
 h1 {
     font-family: monospace;
+    font-size: 1vw;
     text-align: center;
     color: #222;
     padding: 10pt;
+    white-space: nowrap;
 }
 
 .center {
